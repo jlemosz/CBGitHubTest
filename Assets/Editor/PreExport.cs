@@ -1,6 +1,7 @@
 ﻿using UnityEditor;
+using UnityEngine;
 
-public class PreExport
+public static class PreExport
 {
     public static void PrintDefines()
     {
