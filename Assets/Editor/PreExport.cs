@@ -1,5 +1,4 @@
 ﻿using UnityEditor;
-using UnityEngine;
 
 public static class PreExport
 {
@@ -7,6 +6,6 @@ public static class PreExport
     {
         string[] defines;
         PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildPipeline.GetBuildTargetGroup(EditorUserBuildSettings.activeBuildTarget), out defines);
-        Debug.Log("Custom defines from player settings: " + string.Join(";", defines));
+        UnityEngine.Debug.LogError("Custom defines from player settings: " + string.Join(";", defines));
     }
 }
