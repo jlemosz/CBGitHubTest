@@ -2,8 +2,6 @@ using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 
-namespace CloudBuildTest
-{
 #if UNITY_EDITOR
     public static class CommandLineBuild
     {
@@ -26,4 +24,3 @@ namespace CloudBuildTest
         #endregion
     }
 #endif
-}
