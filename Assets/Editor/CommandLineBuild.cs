@@ -2,7 +2,6 @@ using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 
-#if UNITY_EDITOR
     public static class CommandLineBuild
     {
         #region Public
@@ -23,4 +22,3 @@ using UnityEngine;
      
         #endregion
     }
-#endif
