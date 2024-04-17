@@ -4,8 +4,6 @@ using UnityEngine;
 
     public static class CommandLineBuild
     {
-        #region Public
-
         // Method invoked by a CI script 
         [UsedImplicitly]
         public static void SetEnvironment()
@@ -19,6 +17,4 @@ using UnityEngine;
             Debug.Log("iOS GROUP: " + group.ToString());
 #endif
         }
-     
-        #endregion
     }
