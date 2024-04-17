@@ -2,7 +2,7 @@ using UnityEngine;
 
 public static class TestClass
 {
-    public static void SetEnvironment()
+    public static void PrintTarget()
     {
         var target = UnityEditor.EditorUserBuildSettings.activeBuildTarget;
         var group = UnityEditor.BuildPipeline.GetBuildTargetGroup(target);
