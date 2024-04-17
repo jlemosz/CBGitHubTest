@@ -1,11 +1,8 @@
-using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 
     public static class CommandLineBuild
     {
-        // Method invoked by a CI script 
-        [UsedImplicitly]
         public static void SetEnvironment()
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
