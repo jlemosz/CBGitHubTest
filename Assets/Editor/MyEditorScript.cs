@@ -5,9 +5,9 @@ class MyEditorScript
    {
        BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
        buildPlayerOptions.scenes = new[] {"Assets/Scenes/SampleScene.unity"};
-       buildPlayerOptions.target = BuildTarget.iOS;
+       buildPlayerOptions.target = BuildTarget.StandaloneWindows64;
        buildPlayerOptions.options = BuildOptions.None;
-       buildPlayerOptions.locationPathName = "iOSBuild";
+       buildPlayerOptions.locationPathName = "Build";
        BuildPipeline.BuildPlayer(buildPlayerOptions);
    }
 }
